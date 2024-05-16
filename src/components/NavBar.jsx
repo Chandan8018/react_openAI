@@ -23,12 +23,15 @@ export default function NavBar() {
   return (
     <header className='bg-[#252525]'>
       <nav className='flex justify-between items-center w-[92%] mx-auto'>
-        <span className='self-center whitespace-nowrap text-xl font-semibold text-white flex flex-col'>
-          <span>
-            secret <span className='bg-[#C82A59] rounded-lg px-1'>desires</span>
+        <Link to='/'>
+          <span className='self-center whitespace-nowrap text-xl font-semibold text-white flex flex-col'>
+            <span>
+              secret{" "}
+              <span className='bg-[#C82A59] rounded-lg px-1'>desires</span>
+            </span>
+            <span className='text-sm text-slate-500'>Open Beta</span>
           </span>
-          <span className='text-sm text-slate-500'>Open Beta</span>
-        </span>
+        </Link>
         <div className='nav-links duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5'>
           <ul className='flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-4 bg-black md:bg-[#252525] rounded-lg'>
             <Link

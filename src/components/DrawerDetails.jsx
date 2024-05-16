@@ -4,7 +4,7 @@ import { FaLock, FaEdit } from "react-icons/fa";
 import { ImShare2 } from "react-icons/im";
 import { IoMdClose, IoMdSettings } from "react-icons/io";
 import { CiMenuKebab } from "react-icons/ci";
-import { Badge, Sidebar } from "flowbite-react";
+import { Sidebar } from "flowbite-react";
 import styles from "./DrawerDetails.module.css";
 
 export default function DrawerDetails() {

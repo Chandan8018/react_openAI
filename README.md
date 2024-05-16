@@ -47,4 +47,4 @@ To install Project Name, follow these steps:
    npm run dev
 
 ## Screenshots
-![text to-text](./rn.png).
+[text to-text](.src/assets/chat.png)

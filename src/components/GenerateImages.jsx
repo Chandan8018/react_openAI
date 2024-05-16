@@ -3,8 +3,6 @@ import { useState } from "react";
 import styles from "./Chat.module.css";
 import { IoIosSend } from "react-icons/io";
 import axios from "axios";
-import chatgptlogo2 from "../assets/chatgptlogo2.png";
-import nouserlogo from "../assets/nouserlogo.png";
 import { FaVolumeUp, FaEdit, FaCopy } from "react-icons/fa";
 import { AiFillLike, AiFillDislike } from "react-icons/ai";
 import { TfiReload } from "react-icons/tfi";
