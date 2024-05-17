@@ -27,7 +27,12 @@ export default function FooterComp() {
           </FooterLinkGroup>
         </div>
         <FooterDivider />
-        <FooterCopyright href='#' by='secret desires™' year={2022} />
+        <Link to='/'>
+          <FooterCopyright
+            by='secret desires™'
+            year={new Date().getFullYear()}
+          />
+        </Link>
       </div>
     </Footer>
   );
