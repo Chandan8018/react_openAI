@@ -1,6 +1,6 @@
 # Secret Desires
 
-Welcome to Secret Desires! .
+Welcome to Secret Desires AI!
 
 ## Table of Contents
 
@@ -47,4 +47,9 @@ To install Project Name, follow these steps:
    npm run dev
 
 ## Screenshots
-[text to-text](.src/assets/chat.png)
+
+- Text to Text
+![text-to-text](./public/chat.png)
+---
+- Text to Image
+![text to image](./public/img.png)
